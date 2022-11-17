@@ -2,7 +2,7 @@
 from chatterbot import ChatBot 
 from chatterbot.trainers import ListTrainer 
 from chatterbot.trainers import ListTrainer 
-  
+
 bot = ChatBot('Bot') 
   
 trainer = ListTrainer(bot) 
