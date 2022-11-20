@@ -1,21 +1,38 @@
-#Integrantes: Higor Barbosa, Fillipe Cabral, Mateus Basilio
-from chatterbot.trainers import ListTrainer 
-from chatterbot.trainers import ChatterBotCorpusTrainer 
-from chatterbot import ChatBot 
+# Integrantes: Higor Barbosa, Fillipe Cabral, Mateus Basilio
+from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
+import utils as utils
 
-bot = ChatBot('Pegasus')
-conversa = ChatterBotCorpusTrainer(bot)
+bot = ChatBot('Irineu')
+bot = ChatBot(
+    'Irineu',
+    storage_adapter='chatterbot.storage.SQLStorageAdapter',
+    database_uri='sqlite:///database.sqlite3'
+    )
+    
 conversa = ListTrainer(bot)
-
 conversa.train([
-     'Quem é você?', 'Eu sou'
+    'if',
+    'else',
+    'elif',
+    'condicional',
 ])
 
-print("####Início da interação do Chatbot####")
 while True:
-    pergunta = input("Usuário: ")
-    resposta = bot.get_response(pergunta)
-    if float(resposta.confidence) > 0.5:
-        print("Pégasus: ", resposta)
-    else:
-        print('Pégasus: Ainda não sei responder esta pergunta.')
+    try:
+        resposta = input("Usuário: ")
+        if resposta == "":
+            print("Irineu: Digite algo.")
+
+        else:
+            response = bot.get_response(resposta)
+            while response.confidence == 0:
+                response = bot.get_response(resposta)
+
+            if float(response.confidence) > 0.5:
+                print(utils.tratar_resposta(response))
+                #print("Irineu: ", response)
+            else:
+                print("Eu não entendi :(")
+    except(KeyboardInterrupt, EOFError, SystemExit):
+        break
