@@ -23,12 +23,12 @@ trainer = ListTrainer(chatbot)
 
 trainer.train(train)
 
-while True:
-    questao = input('\nYou: ')
-    resposta = chatbot.get_response(questao)
+def perguntar(mensagem):
+    resposta = chatbot.get_response(mensagem)
     
     if float(resposta.confidence) > 0.5:
-        resposta = str(resposta).replace(';', '\n')
-        print(f'Bot: {resposta}')
+        resposta = str(resposta).replace(";", "\n")
+        return f'{resposta}\n\nHelpy: Qual a próxima dúvida?'
+         
     else:
-        print("Eu não entendi :(")
+        return 'Eu não entendi, tente novamente por favor.'
