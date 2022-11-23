@@ -1,0 +1,122 @@
+[
+    {
+        "pergunta": "o que é uma estrutura condicional",
+        "intencao": "estrutura_condicional"
+    },
+    {
+        "pergunta": "estrutura condicional",
+        "intencao": "estrutura_condicional"
+    },
+    {
+        "pergunta": "estrutura",
+        "intencao": "estrutura_condicional"
+    },
+    {
+        "pergunta": "condicional",
+        "intencao": "estrutura_condicional"
+    },
+    {
+        "pergunta": "condição",
+        "intencao": "estrutura_condicional"
+    },
+    {
+        "pergunta": "condicao",
+        "intencao": "estrutura_condicional"
+    },
+    {
+        "pergunta": "condicão",
+        "intencao": "estrutura_condicional"
+    },
+    {
+        "pergunta": "condiçao",
+        "intencao": "estrutura_condicional"
+    },
+    {
+        "pergunta": "if else",
+        "intencao": "if_else_elif"
+    },
+    {
+        "pergunta": "else",
+        "intencao": "if_else_elif"
+    },
+    {
+        "pergunta": "if",
+        "intencao": "if_else_elif"
+    },
+    {
+        "pergunta": "elif",
+        "intencao": "if_else_elif"
+    },
+    {
+        "pergunta": "variavel",
+        "intencao": "variavel"
+    },
+    {
+        "pergunta": "var",
+        "intencao": "variavel"
+    },
+    {
+        "pergunta": "comentar comentario",
+        "intencao": "comentario"
+    },
+    {
+        "pergunta": "comentar",
+        "intencao": "comentario"
+    },
+    {
+        "pergunta": "comentario",
+        "intencao": "comentario"
+    },
+    {
+        "pergunta": "comment",
+        "intencao": "comentario"
+    },
+    {
+        "pergunta": "tipo",
+        "intencao": "tipos"
+    },
+    {
+        "pergunta": "type",
+        "intencao": "tipos"
+    },
+    {
+        "pergunta": "while",
+        "intencao": "while"
+    },
+    {
+        "pergunta": "for",
+        "intencao": "for"
+    },
+    {
+        "pergunta": "funcao",
+        "intencao": "funcao"
+    },
+    {
+        "pergunta": "def",
+        "intencao": "funcao"
+    },
+    {
+        "pergunta": "function",
+        "intencao": "funcao"
+    },
+    {
+        "pergunta": "classe",
+        "intencao": "classe"
+    },
+    {
+        "pergunta": "class",
+        "intencao": "classe"
+    },
+    {
+        "pergunta": "laço de repetição",
+        "intencao": "laco_repeticao"
+    },
+    {
+        "pergunta": "laço",
+        "intencao": "laco_repeticao"
+    },
+    {
+        "pergunta": "loop",
+        "intencao": "laco_repeticao"
+    }
+]

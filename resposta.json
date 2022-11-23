@@ -1,0 +1,42 @@
+[
+    {
+        "intencao": "estrutura_condicional",
+        "resposta": "A condicional if é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else. Em Python, elif é a abreviação de else if e é usado quando a primeira instrução if não for verdadeira, e você deseja verificar outra condição. Ou seja, as instruções elif combinam com as instruções if e else para verificar uma nova condição. Digite if else para ver a sintaxe."
+    },
+    {
+        "intencao": "if_else_elif",
+        "resposta": "Python suporta as condições lógicas usuais da matemática:;Igual a: a == b;Diferentes: a != b;Menor que: a < b;Menor ou igual a: a <= b;Maior que: a > b;Maior ou igual a: a >= b;;O Python depende do recuo (espaço em branco no início de uma linha) para definir o escopo no código.;Outras linguagens de programação costumam usar colchetes para essa finalidade.;;Veja abaixo a sintaxe:;if (valor > 5) {;;} else if (valor > 50) {;;} else {;;}"
+    },
+    {
+        "intencao": "variavel",
+        "resposta": "No Python não tem comando para declarar uma variável.;Uma variável é criada no momento em que você atribui um valor a ela.;As variáveis ​​não precisam ser declaradas com nenhum tipo específico e podem até mudar de tipo depois de terem sido definidas.;Se você deseja especificar o tipo de dados de uma variável, isso pode ser feito com a conversão. Por exemplo:;;x = str(3)    # x = '3';y = int(3)    # y = 3;z = float(3)  # z = 3.0"
+    },
+    {
+        "intencao": "comentario",
+        "resposta": "Para adicionar um comentário, você pode inserir um # para cada linha.;Se quiser comentar multiplas linhas, deve-se usar 3 aspas seguidas('''), seja simples ou duplas."
+    },
+    {
+        "intencao": "tipo",
+        "resposta": "O Python tem os seguintes tipos de dados integrados por padrão, nestas categorias:;;Tipo de texto: str;Tipos Numéricos: int, float, complex;Tipos de sequência: list, tuple, range;Tipo de mapeamento: dict;Tipos de conjunto: set, frozenset;Tipo Booleano: bool;Tipos binários: bytes, bytearray, memoryview;Nenhum Tipo: NoneType"
+    },
+    {
+        "intencao": "while",
+        "resposta": "Com o loop while , podemos executar um conjunto de instruções, desde que uma condição seja verdadeira.;;Sintaxe:;while i < 6:;  print(i);  i += 1"
+    },
+    {
+        "intencao": "for",
+        "resposta": "Com o loop for podemos executar um conjunto de instruções, uma vez para cada item em uma lista, tupla, conjunto etc.;;Sintaxe:;fruits = ['apple', 'banana', 'cherry'];for x in fruits:;  print(x)"
+    },
+    {
+        "intencao": "funcao",
+        "resposta": "Uma função é um bloco de código que só é executado quando é chamado.;Você pode passar dados, conhecidos como parâmetros, para uma função.;Uma função pode retornar dados como resultado.;;Exemplo:;def my_function():;  print('Hello from a function');;Você pode chamar a função com ou sem argumentos(isso vai depender da função).;Exemplo:;minha_funcao() #Sem parametros;minha_funcao(valor) #Com parametro"
+    },
+    {
+        "intencao": "classe",
+        "resposta": "Python é uma linguagem de programação orientada a objetos.;Quase tudo em Python é um objeto, com suas propriedades e métodos.;Uma classe é como um construtor de objetos ou um 'projeto' para criar objetos.;Para criar uma classe, use a palavra-chave class:;;Exemplo:;class Person:;  def __init__(self, name, age):;    self.name = name;    self.age = age;;p1 = Person('John', 36);;print(p1.name);print(p1.age)"
+    },
+    {
+        "intencao": "laco_repeticao",
+        "resposta": "Laço de Repetição, ou loop, é uma estrutura de programação que repete uma sequência de instruções até que uma condição específica seja atendida. Podemos usar loops para percorrer os valores, adicionar somas de números, repetir funções e muitas outras coisas. No python os loops são: while e for. \nCaso desejemos alterar o fluxo de execução de um laço de repetição, podemos utilizar as cláusulas: break, para interromper a execução, ou continue, para prosseguir para a próxima iteração."
+    }
+]

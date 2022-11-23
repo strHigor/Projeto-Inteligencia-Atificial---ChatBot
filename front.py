@@ -6,7 +6,7 @@ fundo = "#17202a"
 cor_txt = "#eaecee"
 fonte = "arial 14"
 negrito = "arial 14 bold"
-
+ 
 class ChatApplication:
 
     def __init__(self):
@@ -43,7 +43,6 @@ class ChatApplication:
         send_buttom = Button(bottom_label, text="enviar", font=negrito, width=20, bg=cinza,
                              command=lambda: self._on_enter_pressed(None))
         send_buttom.place(relx=0.77, rely=0.008, relheight=0.06, relwidth=0.22)
-
 
     def _on_enter_pressed(self, event):
         msg = self.msg_entry.get()
